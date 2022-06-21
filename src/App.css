@@ -1,0 +1,83 @@
+body{
+  padding:50px;
+  background-image: url("./frame.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  font-family:sans-serif;
+  
+  
+}
+#container{
+  display: flex;
+  justify-content:flex ;
+}
+#container{
+   
+  padding: 30px;
+  height: 900px;
+  /*background: rgba(217, 168, 172, 0.33);*/
+ /*background: rgba(255, 255, 255, 0.37);*/
+  border-radius: 10px;
+  
+  
+}
+.App{
+  
+  
+  /*background-image: url('./.jpg');
+  background-position: center;*/
+  background-color: #fff;
+  width: 600px;
+  min-height: 800px;
+  margin-left: 500px;
+  border: 2px solid #F095D0;
+  border-radius: 50px;
+ 
+}
+
+
+#to-do-form{
+  margin-bottom: 50px;
+}
+#to-do-form input{
+  
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid hotpink;
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color:black;
+  margin-left: 100px;
+  margin-top: 50px;
+ 
+}
+#to-do-form input::placeholder{
+  color: black;
+}
+#to-do-form input:focus{
+  outline: none;
+}
+#to-do-form button{
+  padding: 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background:linear-gradient(to right,hotpink,#FFD7DA);
+  color: #fff;
+  text-transform: capitalize;
+  
+}
+#to-do-form button:focus{
+  outline: none;
+}
+
+h2{
+    font-family: sans-serif;
+    color: black;
+    margin-left: 80px;
+}
+
